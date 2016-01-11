@@ -7,7 +7,7 @@ On the post.php or post-new.php admin screens for post types with 'editor' suppo
 ```
 $('.my-amazing-button').wpfileframe( {
 	buttonText: 'Select',             // Default translated 'Select'.
-	frameTitle: 'Media View Title',   // Default untranslated 'Select Media'.
+	frameTitle: 'Select a PDF File',  // Default untranslated 'Select Media'.
 	mimeType: 'application/pdf',      // Default all mime types.
 	multiple: false,                  // Default 'true'.
 	onSelect: function( selection ) { // Called when the user hits the select button.
